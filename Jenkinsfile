@@ -13,7 +13,7 @@ podTemplate(
     containers: [
         containerTemplate(
             name: 'maven',
-            image: 'maven:3-alpine',
+            image: 'maven:ibmjava-8-alpine',
             ttyEnabled: true,
             command: '/bin/bash',
             workingDir: '/home/jenkins',
