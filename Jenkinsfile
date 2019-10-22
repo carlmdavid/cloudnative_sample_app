@@ -23,7 +23,7 @@ podTemplate(
         ),
         containerTemplate(
             name: 'ibmcloud',
-            image: 'docker.io/garagecatalyst/ibmcloud-dev:1.0.7',
+            image: 'docker.io/garagecatalyst/ibmcloud-dev:latest',
             ttyEnabled: true,
             command: '/bin/bash',
             workingDir: '/home/jenkins',
