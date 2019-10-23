@@ -13,7 +13,7 @@ podTemplate(
     containers: [
         containerTemplate(
             name: 'maven',
-            image: 'maven:3.6.2-ibmjava-8-alpine',
+            image: 'adoptopenjdk/maven-openjdk11:latest',
             ttyEnabled: true,
             command: '/bin/bash',
             workingDir: '/home/jenkins',
